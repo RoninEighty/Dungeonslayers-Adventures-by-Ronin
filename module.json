@@ -1,5 +1,5 @@
 {
-  "id": "Dungeonslayers-Ronin-Adventures",
+  "id": "Dungeonslayers-Adventures-by-Ronin",
   "title": "Dungeonslayers Dungeons by Ronin",
   "description": "Dungeons and more",
   "version": "0.0.1",
@@ -14,17 +14,17 @@
   },
   "packs": [
     {
-      "name": "Voll-Verhaftet",
-      "label": "Voll Verhaftet",
-      "path": "packs/szenen.db",
-      "type": "Scene",
+      "name": "voll-verhaftet-journale",
+      "label": "Voll Verhaftet - Journale",
+      "path": "journal/fvtt-JournalEntry-voll-verhaftet.json",
+      "type": "JournalEntry",
       "system": "dungeonslayers"
     },
     {
-      "name": "items",
-      "label": "Gegenstände",
-      "path": "packs/items.db",
-      "type": "Item",
+      "name": "gefaengnis-szenen",
+      "label": "Voll Verhaftet - Szenen",
+      "path": "scene/fvtt-Scene-gefangnis.json",
+      "type": "Scene",
       "system": "dungeonslayers"
     }
   ],

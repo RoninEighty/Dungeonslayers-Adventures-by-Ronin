@@ -1,0 +1,40 @@
+{
+  "name": "Rattenknochen",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "system": {
+    "description": "<p>Ein kleiner Knochen einer Ratte.</p><p></p><p></p>",
+    "quantity": 1,
+    "price": 0,
+    "availability": "unset",
+    "storageLocation": "-",
+    "equipped": false
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "core": {
+      "sheetClass": "ds4.DS4ItemSheet"
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "caera",
+      "uuid": "Item.AqsNdJXjNMy4PnVC",
+      "coreVersion": "13.351",
+      "systemId": "ds4",
+      "systemVersion": "3.2.1"
+    },
+    "coreVersion": "13.351",
+    "systemId": "ds4",
+    "systemVersion": "3.2.1",
+    "createdTime": 1768601696462,
+    "modifiedTime": 1768604466320,
+    "lastModifiedBy": "6JmcOAa8FIyKzVFt"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

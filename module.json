@@ -1,16 +1,11 @@
 {
   "id": "Dungeonslayers-Adventures-by-Ronin",
   "title": "Dungeonslayers Dungeons by Ronin",
-<<<<<<< HEAD
   "description": "<p>Dungeons and more</p>",
   "version": "0.0.2",
   "manifest": "https://raw.githubusercontent.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/main/module.json",
   "download": "https://github.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/archive/refs/heads/main.zip",
   "flags": {},
-=======
-  "description": "Dungeons and more",
-  "version": "0.0.2",
->>>>>>> 21b0e9fb83c39b1ffc892ea47bc0b0017a880ec7
   "authors": [
     {
       "name": "Ronin",
@@ -32,11 +27,7 @@
     {
       "name": "voll-verhaftet-journale",
       "label": "Voll Verhaftet - Journale",
-<<<<<<< HEAD
       "path": "packs/journal",
-=======
-      "path": "packs/journal/fvtt-JournalEntry-voll-verhaftet.json",
->>>>>>> 21b0e9fb83c39b1ffc892ea47bc0b0017a880ec7
       "type": "JournalEntry",
       "system": "ds4",
       "ownership": {
@@ -56,20 +47,9 @@
       }
     },
     {
-      "name": "voll-verhaftet-items",
-      "label": "Voll Verhaftet - Items",
-      "path": "packs/items/fvtt-Item-rattenknochen.json",
-      "type": "Item",
-      "system": "dungeonslayers"
-    },
-    {
       "name": "gefaengnis-szenen",
       "label": "Voll Verhaftet - Szenen",
-<<<<<<< HEAD
       "path": "packs/scene",
-=======
-      "path": "packs/scene/fvtt-Scene-gefangnis.json",
->>>>>>> 21b0e9fb83c39b1ffc892ea47bc0b0017a880ec7
       "type": "Scene",
       "system": "ds4",
       "ownership": {

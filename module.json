@@ -1,11 +1,20 @@
 {
   "id": "Dungeonslayers-Adventures-by-Ronin",
   "title": "Dungeonslayers Dungeons by Ronin",
+<<<<<<< HEAD
+  "description": "<p>Dungeons and more</p>",
+  "version": "0.0.2",
+  "manifest": "https://raw.githubusercontent.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/main/module.json",
+  "download": "https://github.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/archive/refs/heads/main.zip",
+  "flags": {},
+=======
   "description": "Dungeons and more",
-  "version": "0.0.1",
+  "version": "0.0.2",
+>>>>>>> 21b0e9fb83c39b1ffc892ea47bc0b0017a880ec7
   "authors": [
     {
-      "name": "Ronin"
+      "name": "Ronin",
+      "flags": {}
     }
   ],
   "compatibility": {
@@ -14,20 +23,59 @@
   },
   "packs": [
     {
+      "name": "voll-verhaftet-adventure",
+      "label": "Voll Verhaftet - Adventure",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "system": "ds4"
+    },
+    {
       "name": "voll-verhaftet-journale",
       "label": "Voll Verhaftet - Journale",
-      "path": "journal/fvtt-JournalEntry-voll-verhaftet.json",
+<<<<<<< HEAD
+      "path": "packs/journal",
+=======
+      "path": "packs/journal/fvtt-JournalEntry-voll-verhaftet.json",
+>>>>>>> 21b0e9fb83c39b1ffc892ea47bc0b0017a880ec7
       "type": "JournalEntry",
+      "system": "ds4",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "voll-verhaftet-items",
+      "label": "Voll Verhaftet - Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "ds4",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "voll-verhaftet-items",
+      "label": "Voll Verhaftet - Items",
+      "path": "packs/items/fvtt-Item-rattenknochen.json",
+      "type": "Item",
       "system": "dungeonslayers"
     },
     {
       "name": "gefaengnis-szenen",
       "label": "Voll Verhaftet - Szenen",
-      "path": "scene/fvtt-Scene-gefangnis.json",
+<<<<<<< HEAD
+      "path": "packs/scene",
+=======
+      "path": "packs/scene/fvtt-Scene-gefangnis.json",
+>>>>>>> 21b0e9fb83c39b1ffc892ea47bc0b0017a880ec7
       "type": "Scene",
-      "system": "dungeonslayers"
+      "system": "ds4",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
-  ],
-  "manifest": "https://raw.githubusercontent.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/main/module.json",
-  "download": "https://github.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/archive/refs/heads/main.zip"
+  ]
 }

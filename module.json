@@ -3,7 +3,7 @@
   "title": "Dungeonslayers Dungeons by Ronin",
   "description": "<p>Dungeons and more</p>",
   "version": "0.0.2",
-  "manifest": "https://github.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/blob/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/refs/heads/main/module.json",
   "download": "https://github.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/archive/refs/heads/main.zip",
   "flags": {},
   "authors": [
@@ -56,6 +56,13 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
-    }
+    },
+    {
+    "name": "voll-verhaftet-nsc",
+    "label": "Voll Verhaftet - NSC",
+    "path": "packs/NSC",
+    "type": "Actor",
+    "system": "ds4" 
+    }    
   ]
 }

@@ -1,7 +1,7 @@
-2026/01/30-23:32:40.721129 7207770bc6c0 Recovering log #43
-2026/01/30-23:32:40.751458 7207770bc6c0 Delete type=0 #43
-2026/01/30-23:32:40.751512 7207770bc6c0 Delete type=3 #41
-2026/01/30-23:39:54.894034 7207650d16c0 Level-0 table #48: started
-2026/01/30-23:39:54.894059 7207650d16c0 Level-0 table #48: 0 bytes OK
-2026/01/30-23:39:54.896920 7207650d16c0 Delete type=0 #46
-2026/01/30-23:39:54.899894 7207650d16c0 Manual compaction at level-0 from '!scenes!D2Ch8cH9zbZRd2UH' @ 72057594037927935 : 1 .. '!scenes.walls!D2Ch8cH9zbZRd2UH.zDqaq68R8kcgr3QU' @ 0 : 0; will stop at (end)
+2026/01/31-20:40:10.319131 77b8ad7ef6c0 Recovering log #51
+2026/01/31-20:40:10.326737 77b8ad7ef6c0 Delete type=0 #51
+2026/01/31-20:40:10.326765 77b8ad7ef6c0 Delete type=3 #49
+2026/01/31-21:39:48.081922 77b8a31ff6c0 Level-0 table #56: started
+2026/01/31-21:39:48.082483 77b8a31ff6c0 Level-0 table #56: 0 bytes OK
+2026/01/31-21:39:48.085777 77b8a31ff6c0 Delete type=0 #54
+2026/01/31-21:39:48.085989 77b8a31ff6c0 Manual compaction at level-0 from '!scenes!D2Ch8cH9zbZRd2UH' @ 72057594037927935 : 1 .. '!scenes.walls!D2Ch8cH9zbZRd2UH.zDqaq68R8kcgr3QU' @ 0 : 0; will stop at (end)

@@ -25,6 +25,13 @@
       "system": "ds4"
     },
     {
+      "name": "D2GO1 - Die Räuber vom Lyrkenfenn",
+      "label": "D2GO1 - Die Räuber vom Lyrkenfenn",
+      "path": "packs/adventures",
+      "type": "Adventure",
+      "system": "ds4"
+    },
+    {
       "name": "voll-verhaftet-journale",
       "label": "Voll Verhaftet - Journale",
       "path": "packs/journal",

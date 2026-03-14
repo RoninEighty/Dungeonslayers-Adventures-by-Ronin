@@ -3,16 +3,9 @@
     "name": "Dungeonslayers Adventures",
     "title": "Dungeonslayers Adventures",
     "description": "A collection of my content.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "manifest": "https://raw.githubusercontent.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/refs/heads/main/module.json",
     "download": "https://github.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/archive/refs/heads/main.zip",
-    "authors": [
-        {
-            "name": "My Name",
-            "discord": "MyDiscordUsername#42",
-            "url": "https://www.mywebsite.com/"
-        }
-    ],
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "13",
     "compatibility": {

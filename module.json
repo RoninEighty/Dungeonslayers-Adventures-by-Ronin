@@ -1,75 +1,35 @@
 {
-  "id": "Dungeonslayers-Adventures-by-Ronin",
-  "title": "Dungeonslayers Dungeons by Ronin",
-  "description": "<p>Dungeons and more</p>",
-  "version": "0.0.4",
-  "manifest": "https://raw.githubusercontent.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/refs/heads/main/module.json",
-  "download": "https://github.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/archive/refs/heads/main.zip",
-  "flags": {},
-  "authors": [
-    {
-      "name": "Ronin",
-      "flags": {}
-    }
-  ],
-  "compatibility": {
-    "minimum": "11",
-    "verified": "13"
-  },
-  "packs": [
-    {
-      "name": "voll-verhaftet-adventure",
-      "label": "Voll Verhaftet - Adventure",
-      "path": "packs/adventures",
-      "type": "Adventure",
-      "system": "ds4"
+    "id": "dungeonslayers-adventures",
+    "name": "Dungeonslayers Adventures",
+    "title": "Dungeonslayers Adventures",
+    "description": "A collection of my content.",
+    "version": "0.0.5",
+    "manifest": "https://raw.githubusercontent.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/refs/heads/main/module.json",
+    "download": "https://github.com/RoninEighty/Dungeonslayers-Adventures-by-Ronin/archive/refs/heads/main.zip",
+    "authors": [
+        {
+            "name": "My Name",
+            "discord": "MyDiscordUsername#42",
+            "url": "https://www.mywebsite.com/"
+        }
+    ],
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "13",
+    "compatibility": {
+        "minimum": "9",
+        "verified": "13"
     },
-    {
-      "name": "Dungeonslayers-Adventures",
-      "label": "Dungeonslayers-Adventures",
-      "path": "packs/adventures",
-      "type": "Adventure",
-      "system": "ds4"
-    },    
-    {
-      "name": "voll-verhaftet-journale",
-      "label": "Voll Verhaftet - Journale",
-      "path": "packs/journal",
-      "type": "JournalEntry",
-      "system": "ds4",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "voll-verhaftet-items",
-      "label": "Voll Verhaftet - Items",
-      "path": "packs/items",
-      "type": "Item",
-      "system": "ds4",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-      "name": "gefaengnis-szenen",
-      "label": "Voll Verhaftet - Szenen",
-      "path": "packs/scene",
-      "type": "Scene",
-      "system": "ds4",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    },
-    {
-    "name": "voll-verhaftet-nsc",
-    "label": "Voll Verhaftet - NSC",
-    "path": "packs/NSC",
-    "type": "Actor",
-    "system": "ds4" 
-    }    
-  ]
-}
+    "packs": [
+        {
+            "name": "module-adventures",
+            "label": "Module Adventures",
+            "path": "./packs/adventures.db",
+            "type": "Adventure",
+            "system": "ds4",
+            "ownership": {
+               "PLAYER": "OBSERVER",
+               "ASSISTANT": "OWNER"
+               }
+        }
+   ]
+  }

@@ -1,4 +1,3 @@
-# Dungeonslayers - Voll Verhaftet
-Dungeonslayers ist ein freies Pen & Paper Rollenspiel, entwickelt von Christian Kennig. Es ist lizensiert unter der Lizenz CC BY-NC-SA 3.0 DE.
+# My Content Module
 
-Das Szenario Voll Verhaftet wurde von Ronin erstellt und ist unter CC BY-NC-SA 4.0 DE lizensiert.
+A template for creating your own Foundry VTT content module.
